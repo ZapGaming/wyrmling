@@ -1,0 +1,8 @@
+data/
+out/
+*.bin
+*.pt
+*.npz
+__pycache__/
+*.pyc
+input.txt

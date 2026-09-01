@@ -1,0 +1,9 @@
+torch
+numpy
+requests
+transformers>=5.0
+# real chat-focused data mix (prepare_data.py --mix chat):
+datasets
+# GPU-only fast Mamba-2 kernels (install on the 170HX/GPU box, not needed for CPU smoke):
+#   pip install mamba-ssm causal-conv1d
+# GGUF conversion (see GGUF.md): clone github.com/ggerganov/llama.cpp
